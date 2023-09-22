@@ -1,0 +1,46 @@
+.info-bg{
+    background-color:hsl(218, 28%, 13%) ;
+}
+
+.info{
+    max-width: 1440px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.box-info{
+     width: 48%;
+    margin-bottom: 20px;
+    max-width:  450px; ;
+    gap:25px
+}
+
+.box-info .icon-info{
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.box-info .box-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    gap: 7px;
+    color: white;
+}
+.box-info .box-text .title-h3{
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+}
+
+.box-info .box-text .text-p{
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+}

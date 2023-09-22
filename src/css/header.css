@@ -1,0 +1,43 @@
+.header-container{
+    background-color:hsl(217, 28%, 15%);
+}
+
+.menu-header{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    width: 166px;
+    height: 49px;
+}
+.nav-ul{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-ul a{
+    color: white;
+    opacity: 0.8;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-ul a:hover{
+    color: hsl(0, 0%, 100%);
+    text-decoration-line: underline;
+    font-weight: 700;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+

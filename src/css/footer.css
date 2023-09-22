@@ -1,0 +1,120 @@
+.footer-bg{
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+}
+
+.footer{
+    max-width: 1440px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 40px;
+    padding-bottom: 120px;
+}
+
+.footer .footer-info{
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    line-height:1.2 ;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    opacity: 0.8;
+    color: white;
+    vertical-align: top;
+}
+
+.footer .footer-info .location{
+    max-width: 350px;
+    display: flex;
+    gap: 7px;
+}
+
+.footer-info .location .icon-location{
+    width: 12px;
+    height: 16px;
+}
+.contact{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-info .phone{
+    max-width: 350px;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-info .phone .icon-phone{
+    width: 16px;
+    height: 16px;
+}
+
+.footer-info .info-email{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-info .info-email .icon-email{
+    width: 18px;
+    height: 16px;
+}
+
+.footer-info .box-links{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-info .box-links .info-link{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-info .box-links .info-link:hover{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-info .social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    height: 50px;
+}
+.footer-info .social-icons .social-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-info .social-icons .social-icon:hover{
+    color: hsl(176, 68%, 64%);
+    border-color: hsl(176, 68%, 64%);
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+

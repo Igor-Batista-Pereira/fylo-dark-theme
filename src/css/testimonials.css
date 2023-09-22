@@ -1,0 +1,69 @@
+.testimonial-bg {
+    background-color: hsl(218, 28%, 13%) ;
+    padding-top: 80px;
+}
+
+.testimonial{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    
+    display: flex;
+    background-color:hsl(218, 28%, 13%) ;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.testimonial:first-child::before{
+    content: url('../images/bg-quotes.png');
+    position: absolute;
+    top: -35px;
+    left: -9px;
+}
+
+.testimonial .testimonial-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 25px;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-testimonial .testimonial-box .testimonial-text{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1.8px;
+}
+
+.attribution-user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.attribution-user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.attribution-user .attribution-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.attribution-user .attribution-info .ceo-name{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.attribution-user .attribution-info .ceo-function{
+    font-size: 10px;
+    font-weight: 400;
+}

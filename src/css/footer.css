@@ -1,10 +1,10 @@
 .footer-bg{
     background-color: hsl(216, 53%, 9%);
-    padding-top: 200px;
+    padding-top: 80px;
 }
 
 .footer{
-    max-width: 1440px;
+    max-width: 1300px;
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -22,20 +22,21 @@
     line-height:1.2 ;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    opacity: 0.8;
     color: white;
-    vertical-align: top;
 }
 
 .footer .footer-info .location{
     max-width: 350px;
     display: flex;
-    gap: 7px;
+    gap: 15px;
+    vertical-align: top;
+    
 }
 
 .footer-info .location .icon-location{
     width: 12px;
     height: 16px;
+    
 }
 .contact{
     max-width: 350px;
@@ -45,9 +46,9 @@
 }
 
 .footer-info .phone{
-    max-width: 350px;
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .footer-info .phone .icon-phone{
@@ -58,6 +59,7 @@
 .footer-info .info-email{
     display: flex;
     gap: 16px;
+    align-items: center;
 }
 
 .footer-info .info-email .icon-email{
@@ -110,11 +112,3 @@
     opacity: 1;
     transition: 0.3s ease-in-out;
 }
-
-
-
-
-
-
-
-

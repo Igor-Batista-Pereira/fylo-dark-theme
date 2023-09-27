@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     width: 100%;
     gap: 50px;
     padding: 70px;  
@@ -53,21 +52,18 @@
     padding-bottom: 3px;
 }
 
-.stay-productive .link-box a{
+.stay-productive .link{
     color: hsl(176, 68%, 64%);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    border-bottom: 1px solid hsl(176, 68%, 64%) ;
     
 }
 
-.stay-productive .link-box .icon-arrow{
-    vertical-align: middle;
-    width: 16px;
-    height: 16px;  
+.stay-productive .link:hover{
+    color: white;
+    border-bottom: 1px solid white;
 }
 
-.stay-productive .link-box:hover{
-    color: white;
-}
 
